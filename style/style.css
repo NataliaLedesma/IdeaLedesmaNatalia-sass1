@@ -1,0 +1,14 @@
+header {
+  background-color: palevioletred;
+}
+header .navbar-modificada {
+  font-size: 25px;
+  background-color: purple;
+}
+
+footer .contenedorFooter {
+  background-color: purple;
+  font-size: larger;
+}
+
+/*# sourceMappingURL=style.css.map */
