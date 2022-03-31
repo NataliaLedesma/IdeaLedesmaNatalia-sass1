@@ -1,0 +1,13 @@
+footer{
+    @include colores-nf;
+    .contenedorFooter{
+        .links-footer{
+            color: map-get($colores, beige);
+            text-decoration: none;
+            &:hover{
+                background-color: map-get($colores, rosa);
+            }
+        }
+    }
+    
+}

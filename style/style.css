@@ -1,14 +1,26 @@
 header {
-  background-color: palevioletred;
+  background-color: #D68C45;
+  color: #fefee3;
+  width: 100%;
+  height: 256px;
+  grid-area: header;
 }
-header .navbar-modificada {
-  font-size: 25px;
-  background-color: purple;
+header h1 {
+  font-size: 3rem;
+  grid-area: h1;
+  text-align: center;
 }
 
-footer .contenedorFooter {
-  background-color: purple;
-  font-size: larger;
+footer {
+  background-color: #D68C45;
+  color: #fefee3;
+}
+footer .contenedorFooter .links-footer {
+  color: #FEFEE3;
+  text-decoration: none;
+}
+footer .contenedorFooter .links-footer:hover {
+  background-color: #FFC9B9;
 }
 
 /*# sourceMappingURL=style.css.map */
